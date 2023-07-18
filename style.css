@@ -9,15 +9,14 @@ body {
 .top-bar {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    margin:20px 50px 0px 50px;
+    align-items: center;
+    margin: 20px 80px 0px 80px;
 
 }
 
 .title-side {
     display: flex;
-    margin-left:40px;
-    align-items:center;
+    align-items: center;
 
 }
 
@@ -29,27 +28,96 @@ body {
 .title-gamer {
     padding-left: 20px;
     font-size: 25px;
-   font-weight:bolder;
+    font-weight: bolder;
 }
-.title-gamer>span{
-    color:rgb(230, 108, 108);
+
+.title-gamer>span {
+    color: rgb(230, 108, 108);
 }
-.top-bar>div>ul{
-    display:flex;
-    justify-content:space-around;
-   
+
+.top-bar>div>ul {
+    display: flex;
+    justify-content: space-evenly;
+
 }
-.top-bar>div>ul>li{
-    list-style:none;
-    margin-right:40px;
+
+.top-bar>div>ul>li {
+    list-style: none;
+    margin-right: 40px;
 }
-.follow-us{
-    display:flex;
-    background-color:rgb(197, 196, 196);
-    margin-top:-10px;
-    padding:10px 0px 10px 20px;
+
+.follow-us-section {
+    display: flex;
+    background-color: rgb(197, 196, 196);
+    margin-top: -10px;
+    padding: 10px 0px 10px 20px;
+    border-radius: 10px;
     
 }
-.follow-us>div{
-    margin-right:20px;
+
+.follow-us-section>div {
+    margin-right: 20px;
+}
+
+/*Banner Side */
+.banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 0px 80px;
+}
+
+.banner-writing-part {
+    padding-top: 100px;
+}
+
+.banner-top-line {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.banner-goat {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.banner-before-ul {
+    margin-top: 20px;
+}
+
+.banner-before-ul>ul>li {
+    margin-top: 8px;
+    margin-left: -15px;
+}
+
+.banner-button {
+    margin-top: 20px;
+}
+
+.btn-sign-in {
+    background-color: rgb(248, 94, 133);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-go-rogue {
+    margin-left: 15px;
+    background-color: rgb(31, 182, 241);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image>img {
+    width: 100%;
 }
