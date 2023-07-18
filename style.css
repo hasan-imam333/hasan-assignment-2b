@@ -52,7 +52,7 @@ body {
     margin-top: -10px;
     padding: 10px 0px 10px 20px;
     border-radius: 10px;
-    
+
 }
 
 .follow-us-section>div {
@@ -123,63 +123,111 @@ body {
 
 /*Online Games Part */
 
-.online-games-section{
+.online-games-section {
     margin: 100px 80px 0px 80px;
 }
-.online-games-section>h1{
+
+.online-games-section>h1 {
     text-align: center;
 }
-.online-games-section>h1>span{
-    color:blueviolet;
+
+.online-games-section>h1>span {
+    color: blueviolet;
 }
-.online-games-section>p{
-    margin-top:15px;
+
+.online-games-section>p {
+    margin-top: 15px;
     text-align: center;
 }
-.online-games-images-and-description{
-    margin-top:30px;
+
+.online-games-images-and-description {
+    margin-top: 30px;
 }
-.online-games-images-and-description{
-    display:flex;
-    justify-content:space-between;
+
+.online-games-images-and-description {
+    display: flex;
+    justify-content: space-between;
 }
-.online-games-images-and-description img{
-    width:250px;
-    height:250px;
+
+.online-games-images-and-description img {
+    width: 250px;
+    height: 250px;
 }
-.online-games-images-and-description p{
-    margin-top:15px;
-    width:250px;
-    font-size:14px;
+
+.online-games-images-and-description p {
+    margin-top: 15px;
+    width: 250px;
+    font-size: 14px;
 }
 
 /*play instantly part */
-.play-instantly{
-    margin:100px 80px 0px 80px;
-    display:flex;
+.play-instantly {
+    margin: 100px 80px 0px 80px;
+    display: flex;
     justify-content: space-between;
 }
-.play-instantly-writing{
-    padding:150px 100px 0px 300px;
+
+.play-instantly-writing {
+    padding: 150px 100px 0px 300px;
 }
-.play-instantly-writing h2{
-    margin-bottom:5px;
+
+.play-instantly-writing h2 {
+    margin-bottom: 5px;
     text-align: right;
     font-weight: bolder;
 }
-.play-instantly-writing>h2>span{
-    color:rgb(230, 17, 148);
+
+.play-instantly-writing>h2>span {
+    color: rgb(230, 17, 148);
 }
-.play-instantly-writing p{
-    margin-top:10px;
+
+.play-instantly-writing p {
+    margin-top: 10px;
     text-align: right;
 }
 
-.image-horse{
-    width:400px;
-    padding-left:100px;
+.image-horse {
+    width: 400px;
+    padding-left: 100px;
 }
-.image-girl{
-    width:250px;
-    margin-top:-180px;
+
+.image-girl {
+    width: 250px;
+    margin-top: -180px;
+}
+
+/*mini icon */
+.mini-icon-top-line {
+    margin: 100px 150px 0px 150px;
+}
+
+.mini-icon-second-line {
+    margin: 30px 250px 0px 250px;
+}
+
+
+.mini-icon-top-line,
+.mini-icon-second-line {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mini-img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.mini-img-1>h6 {
+    padding-left: 20px;
+}
+
+.mini-img-1:hover {
+    border: 2px solid rgb(238, 82, 160);
+    color: rgb(209, 22, 116);
+    font-weight: bold;
 }
