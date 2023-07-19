@@ -31,19 +31,23 @@ body {
     font-weight: bolder;
 }
 
-.title-gamer>span {
+.top-word-fraction-g {
     color: rgb(230, 108, 108);
 }
 
 .top-bar>div>ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
 .top-bar>div>ul>li {
+    font-size:15px;
     list-style: none;
-    margin-right: 40px;
+    /* margin-right: 20px; */
+}
+.for-margin{
+    margin-right:20px;
 }
 
 .follow-us-section {
@@ -52,8 +56,7 @@ body {
     margin-top: -10px;
     padding: 10px 0px 10px 20px;
     border-radius: 10px;
-
-}
+   }
 
 .follow-us-section>div {
     margin-right: 20px;
@@ -202,7 +205,7 @@ body {
 }
 
 .mini-icon-second-line {
-    margin: 30px 250px 0px 250px;
+    margin: 30px 215px 0px 215px;
 }
 
 
@@ -229,5 +232,58 @@ body {
 .mini-img-1:hover {
     border: 2px solid rgb(238, 82, 160);
     color: rgb(209, 22, 116);
-    font-weight: bold;
+}
+
+/*Footer */
+
+.footer {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(3, 3, 77);
+}
+
+.and-footer {
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.footer-title-right-fraction {
+    color: white;
+}
+
+.footer-word-container {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer-logo-size {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.last-logo {
+    margin-right: 0px;
+}
+
+.footer-logo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-term-and-other {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.play-game {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
 }
