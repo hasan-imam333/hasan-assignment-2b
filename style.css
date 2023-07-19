@@ -44,7 +44,6 @@ body {
 .top-bar>div>ul>li {
     font-size:15px;
     list-style: none;
-    /* margin-right: 20px; */
 }
 .for-margin{
     margin-right:20px;
@@ -176,6 +175,7 @@ body {
 
 .play-instantly-writing h2 {
     margin-bottom: 5px;
+    font-size:30px;
     text-align: right;
     font-weight: bolder;
 }
