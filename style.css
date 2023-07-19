@@ -120,12 +120,8 @@ body {
     color: white;
 }
 
-.banner-image {
-    width: 50%;
-}
-
 .banner-image>img {
-    width: 100%;
+     width: 450px; 
 }
 
 /*we are gamer part */
@@ -346,7 +342,7 @@ body {
     text-align: center;
 }
 
-/*For Mobile View ..............................................................*/
+/*For Mobile View ..................................................*/
 @media screen and (max-width:425px) {
 
     .top-bar {
@@ -528,6 +524,7 @@ body {
     /* Footer */
     .footer {
         margin-top: 100px;
+               
     }
 
     .footer-word-container {
@@ -559,8 +556,5 @@ body {
     .play-game>span {
         display: block;
     }
-
-
-
-
 }
+
